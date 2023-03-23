@@ -1,0 +1,281 @@
+/*
+Theme Name: Auto Car Care
+Template: automobile-hub
+Text Domain: auto-car-care
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-auto-car-care-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Auto Car Care is a fabulous and multipurpose theme. It is well sanitized as per WordPress standards. It has a responsive layout which fits beautifully on any device. It is SEO-friendly too that will help your website rank soon on major search engines like Google. The theme is suitable to create website for car listing, auto listing, car dealership, lift trucks, car wash, driving school, travel trailor, Agriculture equipment, aircrafts, ATV, Automobile Body Work, charter planes, motorbikes, motorcycles, scooters, automobile blogger etc. It is also ideal for car repair shops, car wash, Automobile Spraying and Branding Workshop, garages, mechanic workshops, auto centres, brakes shop, wheel shop and such related websites and small businesses. It is optimized for speed hence it has faster page load times. It is translation ready and supports RTL layout. You can also add shortcodes to it to improve the functionality of your website. It is written with clean and secure codes. It is user-friendly theme with many customization and personalization options. It is implemented on bootstrap framework which makes it really handy to use. With the social media option you can link all your social media pages. The testimonial section let’s your customers and visitors comment and give reviews on your services and items.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, flexible-header, blog, e-commerce, photography
+Version: 0.3.5
+Tested up to: 6.1
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+
+body,h1, h2, h3, h4, h5, h6,.menubar,.more-btn a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#theme-sidebar button[type="submit"], #footer button[type="submit"]{
+    font-family: 'Rubik', sans-serif;
+}
+
+p{
+    letter-spacing: unset;
+}
+
+.center{
+	border-color: #bbb;
+}
+
+/* color 1 */
+
+a,.search-box i,.main-navigation a:hover,.headerbox i,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,a.page-numbers:hover,#theme-sidebar h3,#theme-sidebar a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.headerbox i:hover, .headerbox i:hover:after,#about h3,#about p i{
+    color: #fdb719;
+}
+
+#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,span.meta-nav,#comments input[type="submit"],.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,button[type="submit"]{
+    background: #fdb719;
+}
+
+.main-navigation a, body, .logo p, .more-btn i,.page-box p,.box-info span,#theme-sidebar a,#theme-sidebar li{
+    color: #736f66;
+}
+
+#theme-sidebar button[type="submit"], #footer button[type="submit"],#theme-sidebar button[type="submit"], #footer button[type="submit"], .prev.page-numbers, .next.page-numbers, .page-numbers, #theme-sidebar .tagcloud a:hover, span.meta-nav, #comments input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+    color: #212121;
+}
+
+a.page-numbers:hover{
+    background: #212121;
+}
+
+a:hover{
+    color: #bf8400;
+}
+
+#footer .tagcloud a:hover,.search_inner form.search-form{
+    border-color: #fdb719;
+}
+
+/* topbar */
+
+.topbarbox {
+    padding: 12px 0;
+    background: #212121;
+}
+.topbarbox a{
+   color: #817c72;
+   margin-right: 15px;
+}
+.logo h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* header */
+
+.search-box i{
+    border: none;
+}
+.search-box {
+    text-align: right;
+}
+button.search_btn i{
+    font-size: 20px;
+}
+.social-media i{
+    font-size: 18px;
+}
+span.cart-value.simplep {
+    background: #fdb719;
+    font-size: 12px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #212121;
+    font-weight: bold;
+    position: relative;
+    left: -6px;
+    top: -12px;
+}
+#mySidenav {
+    text-align: right;
+    display: block;
+}
+.menubar{
+    border: none;
+    padding: 12px 0;
+}
+.main-navigation li,.main-navigation li:last-child{
+    border: none;
+}
+.headerbox{
+    background: #f4f4f4;
+}
+.headerbox i, .more-btn i {
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+}
+.headerbox i:after{
+    content: none;
+}
+.social-media{
+    padding: 0;
+    text-align: right;
+}
+.headerbox p,.search-box i{
+    font-size: 16px;
+    padding: 0;
+}
+.main-navigation a{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.more-btn a {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 12px;
+    border: solid 2px #fdb719;
+}
+.more-btn a:hover{
+    background: #fdb719;
+    color: #000;
+}
+#theme-sidebar button[type="submit"]:hover,#comments input[type="submit"]:hover,span.meta-nav:hover{
+    background:#000;
+    color:#fdb719;
+}
+.more-btn i {
+    display: none;
+}
+#slider .carousel-caption {
+    right: 55%;
+}
+#slider .inner_carousel h2,.woocommerce ul.products li.product .button, a.checkout-button.button.alt.wc-forward,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.page-box h4 a {
+    font-weight: 600;
+    letter-spacing: unset;
+}
+
+#about h3 {
+    font-size: 20px;
+    letter-spacing: unset;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#contact {
+    position: relative;
+}
+.contact-box {
+    position: absolute;
+    bottom: 0;
+}
+
+.contact-box input[type="text"], .contact-box input[type="email"], .contact-box input[type="phno"], .contact-box input[type="password"], .contact-box textarea {
+    border: none;
+    background: #fdb719;
+    width: 23%;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 0 20px 0 0;
+    height: auto;
+}
+.contact-box input[type="submit"] {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+.center1 .ring::before {
+    background: #fdb719;
+}
+.center2 .ring::before {
+    background: #151515;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+a.added_to_cart.wc-forward {
+  background: red;
+  padding: 10px 28px 10px 28px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #222;
+  background: #fdb719;
+}
+
+a.added_to_cart.wc-forward:hover{
+  background: #222;
+  color: #fff;
+
+}
+@media screen and (max-width: 767px){
+    .innermenubox{
+        padding: 0;
+    }
+    .logo,.social-media,.more-btn,.topbarbox {
+        text-align: center;
+    }
+    .search-box,#about .more-btn{
+        text-align: left;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+        padding: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+        bottom: auto;
+        padding: 0;
+    }
+}
